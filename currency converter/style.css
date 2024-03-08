@@ -1,0 +1,234 @@
+#body1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(cropped-5120-2880-1315608.jpg);
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#b{
+    border: 2px solid yellow;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+#currencybox{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main{
+    width: 300px;
+    height: 200px;
+    border: 4px solid rgb(230, 228, 228);
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.main input{
+    height: 40px; 
+    width: 130px;
+    border-radius: 10px;
+    background-color: white; 
+    border: 2px solid rgb(236, 234, 234); 
+    font-size: 25px; 
+    color: black;"
+}
+
+.box2{
+
+    width: 230px;
+    height: 70px;
+    border: 2px solid rgb(226, 225, 225);
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.box2 select{
+    width: 120px;
+    height: 50px;
+    margin-left: 15px;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+}
+
+.box2 select option{
+    background-color: black;
+    color: white;
+}
+
+.box2 img{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#btn
+{
+    width: 110px;
+    padding: 10px;
+    background-color: rgb(146, 146, 150);
+    font-size: 20px;
+    color: black;
+    margin-left: 350px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+@media screen and (max-width: 930px) {
+    #b{
+        width: 600px;
+        height: 320px;
+        /* border: 2px solid red; */
+    }
+
+    #b h1{
+        font-size: 20px;
+    }
+    #currencybox{
+        /* border: 2px solid yellowgreen; */
+        width: 600px;
+    }
+    .main{
+        width: 200px;
+        height: 150px;
+    }
+
+    .main span{
+        font-size: 18px;
+    }
+
+    .box2 {
+        width: 120px;
+        height: 40px;
+        display: flex;
+    }
+
+    .box2 select{
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+        padding: 0px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .box2 img{
+        width: 30px;
+        height: 20px; 
+    }
+
+    .main label{
+        font-size: 17px
+    }
+
+    .main input{
+        width: 80px;
+        height: 25px;
+        border-radius: 8px;
+    }
+
+    #b button{
+        width: 100px;
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 250px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    #b{
+        width: 450px;
+        height: 210px;
+        /* border: 2px solid red; */
+    }
+
+    #b h1{
+        font-size: 14px;
+    }
+    #currencybox{
+        /* border: 2px solid yellowgreen; */
+        width: 430px;
+    }
+    .main{
+        width: 160px;
+        height: 110px;
+        padding: 8px;
+        border: 2px solid white;
+    }
+
+    .main span{
+        font-size: 10px;
+    }
+
+    .box2 {
+        width: 80px;
+        height: 25px;
+        display: flex;
+        /* border: 2px solid red; */
+        border-radius: 5px;
+
+    }
+
+    .box2 select{
+        width: 60px;
+        height: 30px;
+        font-size: 8px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .box2 img{
+        width: 30px;
+        height: 20px; 
+        margin-top: 2px;
+    }
+
+    .main label{
+        font-size: 10px;
+        
+    }
+
+    .main input{
+        width: 60px;
+        height: 15px;
+        border-radius: 5px;
+    }
+
+    #b button{
+        width: 80px;
+        height: 25px;
+        border-radius: 2px;
+        padding: 0px;
+        font-size: 13px;
+        margin-left: 180px;
+    }
+
+    #inputbox{
+        margin: 0px;
+    }
+
+}
